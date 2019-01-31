@@ -1,0 +1,77 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+#app {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#inputBox{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 50%;
+  padding: 10px;
+}
+
+#button{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;  
+  width:15%;
+  padding: 10px;
+  
+}
+button{
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+
+body{
+    background-color: #f4c842;
+}
+
+p{
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+}
